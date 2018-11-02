@@ -1,0 +1,2 @@
+Resource Agents Scripts GitHub
+https://github.com/ClusterLabs/resource-agents
