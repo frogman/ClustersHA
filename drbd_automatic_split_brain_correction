@@ -1,0 +1,8 @@
+https://github.com/inverse-inc/packetfence/issues/1600
+https://www.sidorenko.io/post/2012/03/drbd-recovery-from-split-brain/
+drbd.conf
+net {
+  after-sb-0pri discard-zero-changes;
+  after-sb-1pri discard-secondary;
+  after-sb-2pri disconnect;
+}
